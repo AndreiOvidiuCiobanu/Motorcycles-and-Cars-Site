@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> 
+        Autoturism 
+    </title>
+    <link rel="stylesheet" href="masina.css">
+    <meta charset="UTF-8">
+    <script src="masina.js"> </script>
+</head>
+
+<body>
+
+    <div>
+        <h1 id = "title">
+            Autoturism
+        </h1>
+    </div>
+
+    <article id="Masina">
+        <p>
+        Autoturisme - automobile care, prin constructie si echipare, sunt destinate transportului unui 
+        numar redus de persoane, bagaje si/sau al bunurilor acestora, avand o capacitate de doua pana la
+        7 locuri pe scaune, inclusiv cel al conducatorului auto. Acestea se pot conduce cu categoria
+         de permis auto B. 
+        </p>
+        <p>
+            Automobilul, sau mai familiar masina, este un vehicul cu patru (rar, trei, sase) roti, 
+            actionat de un motor cu ardere interna, cu abur, cu electricitate sau aer comprimat. 
+            Are scaune pentru conducator si pentru cel putin un pasager.
+            Automobilele sunt de obicei construite pentru a calatori pe drumuri, dar exista unele, 
+            mai ales vehicule utilitare, care permit calatorii in afara drumurilor - (off-road). 
+            Drumurile si autostrazile sunt folosite in comun cu alte vehicule, cum sunt motocicletele 
+            si tractoarele.
+            Un automobil tipic are un motor cu ardere interna si patru roti, insa au aparut pe piata 
+            si masini cu motoare hibride, cu gaz sau electrice. Au fost construite si autovehicule cu 
+            trei roti, dar nu sunt prea raspandite din cauza problemelor de stabilitate.
+            in anul 2007 in lume existau aproape 800 de milioane de masini in circulatie (majoritatea in emisfera nordica) 
+            iar 42 de milioane de masini noi erau produse in fiecare an. in anul 2050 se aproximeaza ca vor exista 
+            4 miliarde de automobile la nivel mondial.
+        </p>
+
+        <button id = "button" >Click</button>
+        <button id = "button2" >Click2</button>
+
+        <h3>
+            Istoric
+        </h3>
+        <p>
+            In 1769, francezul Nicolas-Joseph Cugnot realizeaza un vehicul cu trei roti propulsat prin forta aburului.
+            in 1801, englezul Richard Trevithick realizeaza un fel de locomotiva, numita Puffing Devil, dar care putea 
+            circula si pe drumurile rutiere.
+            Contributii de pionierat in domeniul motoarelor cu ardere interna au adus: Nicéphore Niépce, François Isaac de Rivaz, 
+            Gustave Trouvé si altii. insa inventatorul automobilului in acceptia moderna este considerat Karl Benz. in 1878, acesta
+            proiecteaza un nou tip de motor cu ardere interna, mult imbunatatit si care va fi patentat un an mai tarziu. 
+        </p>
+        <h3>
+            Sasiu
+        </h3>
+        <p> 
+            Sasiul automobilului este ansamblul organelor si instalatiilor care efectueaza preluarea si transmiterea energiei
+            mecanice de la motor la rotile motoare, conducerea automobilului, sustinerea si propulsia lui. Se compune din 
+            transmisie, sistemul de conducere, organele de sustinere, organele de propulsie si instalatiile auxiliare.Mai tine 
+            si motorul si caroseria.
+        </p>
+        <h3>
+            Sistem de transmisie
+         </h3>
+        <p>
+            Transmisia sau sistemul de transmisie preia, transmite, modifica si distribuie momentul motor la rotile motoare 
+            ale automobilului.
+        </p>
+        <h3>
+            Sistem de conducere
+        </h3>
+        <p>
+            Sistemul de conducere asigura deplasarea automobilului pe traseul dorit.Este compus din mecanismul de directie 
+            si sistemul de franare.
+        </p>
+        <h3>
+                Sistem de sustinere
+        </h3>
+        <p>
+            Organele de sustinere suporta greutatea automobilului si preiau fortele rezultate din propulsie franare si 
+            rezistentele ce apar in deplasarea pe drum a automobilului.Cuprind cadrul, carterele puntilor si organele de suspensie.
+        </p>
+        <h3>
+                Sistem de propulsie
+        </h3>
+        <p>
+            Sistemul de propulsie tansforma miscarea de rotatie in miscare de translatie si ajuta automobilul sa se sprijine pe 
+            drum sau pe sol.
+        </p>
+        <h3>
+            Instalatii auxiliare ale sasiului
+        </h3>
+        <p>
+            Instalatiile auxiliare asigura confortul, siguranta circulatiei si controlul exploatarii automobilului.
+            Ele sunt instalatia de iluminat, instalatia de semnalizare, instalatia de incalzire, instalatia de aerisire, 
+            stergatoarele de parbriz, etc. 
+        </p>
+        <div id = "myDiv">
+            <p class="paragraf">
+                Microturisme-cilindree:200-250 cm^3 (1-2 locuri)
+            </p>
+            <img src="micro.jpg" alt="Microturism" height="300" width="300" id = "carImage">
+
+            <p class="paragraf">
+                Mici-cilindree:500-1000 cm^3(2-4 locuri)
+            </p>
+
+            <style>
+                #div1, #div2 {
+                  float: left;
+                  width: 100px;
+                  height: 35px;
+                  margin: 10px;
+                  padding: 10px;
+                  border: 1px solid black;
+                }
+                </style>
+                <script>
+                function allowDrop(ev) {
+                  ev.preventDefault();
+                }
+                
+                function drag(ev) {
+                  ev.dataTransfer.setData("text", ev.target.id);
+                }
+                
+                function drop(ev) {
+                  ev.preventDefault();
+                  var data = ev.dataTransfer.getData("text");
+                  ev.target.appendChild(document.getElementById(data));
+                }
+                </script>
+                <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img src="4.jpg" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">
+                  </div>
+                  
+                <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div> <br>
+
+            <p class="paragraf"> <br>
+                Mijlocii-cilindree:1000-2000 cm^3(4-5 locuri)
+            </p class="paragraf">
+            <img src="nissan.png" alt="Microturism" height="200" width="400" id = "carImage">
+
+            <p class="paragraf">
+                Mari-cilindree:2000–4000 cm^3(4-5 locuri, de exemplu limuzinele)
+            </p>
+            <img src="s.jpg" alt="Microturism" height="300" width="300" id = "carImage">
+
+            <p class="paragraf">
+                Foarte mari-cilindree:3000-8000 cm^3(4-7 locuri)
+            </p>
+            <img src="mulsane.jpg" alt="Microturism" height="300" width="300" id = "carImage">
+        </div>
+    </article>
+</body>

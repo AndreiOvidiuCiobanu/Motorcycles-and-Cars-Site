@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> 
+        Vehicule 
+    </title>
+    <link rel="stylesheet" href="strada.css">
+    <meta charset="UTF-8">
+    <script src="strada.js">
+    </script>
+</head>
+<body>
+        <article id="Motocicletedestrada">
+                <h2>
+                    Motociclete de strada
+                </h2>
+
+                <ol>
+                    <li>
+                        <a href="#Standard">
+                            Standard/Naked  
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#Cruiser">
+                            Cruiser  
+                        </a>  
+                    </li>
+                    <li>
+                        <a href="#Chopper">
+                              Chopper  
+                        </a>  
+                     </li>
+                     <li>
+                        <a href="#Sport">
+                             Sport  
+                        </a>
+                    </li>
+                </ol>
+            </article>
+        
+    <button onclick="stopColor()">Stop Color</button>
+
+    <script>
+    var myVar = setInterval(setColor, 1000);
+    
+    function setColor() {
+    var x = document.body;
+    x.style.backgroundColor = x.style.backgroundColor == "lightyellow" ? "lightpink" : "lightyellow";
+    }
+    
+    function stopColor() {
+    clearInterval(myVar);
+    }
+    </script>
+
+            <article>
+                <form>
+                    <input type = "button" id ="btn2" value = "Reprezentanta">
+                </form>
+                <h3>
+                    Motociclete Standard/Naked
+                </h3>
+                <p class="paragraf">
+                    Aceste motociclete sunt destinate preponderent mediului urban si au o forma clasica, generica. 
+                    Acest tip de motocicleta este recomandat incepatorilor, deoarece sunt manevrabile si in majoritatea 
+                    cazurilor nu au motoare foarte puternice. Numele naked ale acestor motociclete vine din engleza care inseamna gol. 
+                    Motocicleta prezinta carenaje reduse, dezvaluind cat mai mult motorul. 
+                </p>
+                <img src="MT09.png" alt="Yamaha MT09" height="300" width="300"> 
+            </article>
+        
+            <article id="Cruiser">
+                    <h3>
+                        Motociclete Cruiser
+                    </h3>
+                    <p class="paragraf">
+                        Motociclete destinate plimbarilor lungi, in afara oraselor. Saua joasa, ghidonul lat si un motor 
+                        de cilindree mare, optimizat pentru cuplu maxim la turatii mici arata ca accentul este pus in principal
+                        pe confortul motociclistului si mai putin pe performantele sportive. 
+                    </p>
+                    <img src="cruiser.jpg" alt="Motocicleta cruiser" height="300" width="300"> 
+            </article>
+            
+            <article id="Chopper">
+                    <h3>
+                        Motociclete Chopper
+                    </h3>
+                    <p class="paragraf">
+                        Un chopper e o motocicleta joasa, cu cadrul alungit si furca rotii este mult mai inclinata. 
+                        Motoarele folosite sunt preluate de pe cruisere.
+                    </p>
+                    <img src="chopper.jpg" alt="Motocicleta chopper" height="300" width="300"> 
+            </article>
+        
+            <article id="Sport">
+                    <h3>
+                        Motociclete Sport
+                    </h3>
+                    <p class="paragraf">
+                        Aceste motociclete sunt optimizate pentru viteza si performante sportive, asemanatoare 
+                        motocicletelor de curse din care sunt derivate. Folosesc motoare puternice de turatie mare, 
+                        au carene in jurul cadrului pentru reducerea rezistentei la inaintare, frane puternice si impun 
+                        motociclistului o pozitie specifica, cat mai ascuns in spatele parbrizului si carenelor. 
+                    </p>
+                    <img src="r1m.jpg" alt="Motocicleta sport" height="300" width="300"> 
+            </article>
+
+</body>

@@ -1,0 +1,29 @@
+HTML
+meta, base
+
+CSS
+position(relative, absolute),z-index(enduro)
+transform(imagini masini), transition(scuter), animation
+flexbox-model
+
+JS 
+inputuri (buton,text,radio, checkbox)
+this(moto), let(moto), navigare in arbore (children(masina), parentElement(autoturism), ..)
+className(masina), classList(autoturism), getComputedStyle(moto)
+addEventListener cu param3=true(masina)
+event -proprietati(target(strada), key(moto), pageX(autotursim) )
+      -metode (stopPropagation(AUTOTURISM), preventDefault(..))
+proprietate noua adaugata unui obiect (proiect)
+setInterval(cu 3 parametrii)(masina) , clearInterval(strada)
+window- open(enduro), close (enduro)
+o metoda din clasele predefinite: Math(proiect), Array(length autoturism ), String(moto), Date(proiect)	  
+innerHTML(moto), localStorage(proiect), Drag and Drop(masina)
+
+
+optional-cei care vor sa-si mareasca activitatea de laborator 
+-griduri
+-stilizare cu bootstrap
+-canvas 
+-SVG 
+-jquery
+-ajax

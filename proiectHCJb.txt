@@ -1,0 +1,27 @@
+HTML
+-taguri semantice: header, nav, section, article, aside, div, span
+- h1-h6, p, img, ol, ul, a, table 
+
+
+CSS
+-selectori: id, clasa, tag, elementContinut, elementCopil, al n-lea copil de tipul unui tag (:nth-of-type)
+-proprietati: width, height, color, background, text-align, font-size, border, padding, margin, display, visibility, vertical-align
+-meniu drop-down, galerie de figuri cu figcaption
+-responsive: %(width) , em (font-size), media-query (@media) 
+
+
+Js
+-modificare dinamica de proprietati
+
+-modificare dinamica a stilului unui element 
+
+-modificare dinamica de eveniment (ex: el.onclick)
+
+-selectare dupa id,tag,clasa,selectorCSS
+
+-creare si stergere element (createElement si removeChild)
+doar daca se fac pana in saptamana a 5-a (inclusiv):
+
+-inputuri functionale(buton,text,radio,checkbox)
+
+

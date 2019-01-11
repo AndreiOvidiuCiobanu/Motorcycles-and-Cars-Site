@@ -1,0 +1,76 @@
+#Motociclete{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+#Autoturisme{
+    background-color: bisque;
+    text-align: center;
+}
+
+h3{
+    color:red;
+}
+.paragraf{
+    font-size: medium;
+    padding: 35px; /*face spatiu in jurul unui element 
+    pentru a fi mai usor vizibil*/
+    margin: 20px;
+}
+
+table{
+    table-layout: auto;
+    width: 180px;
+}
+
+th,td {
+    border: 1px solid black;
+}
+
+li{
+    display: inline; /*dispunerea elementelor*/
+}
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+body {
+    background-image: url("wall.jpg");
+    height: 100%; 
+    /* Center and scale the image nicely */
+    font-size: 2em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#checkBox{
+    background-color: darkred;
+}
+
+#Motor{
+    color:  aliceblue;
+}
+
+#Masina{
+    color: aliceblue;
+}

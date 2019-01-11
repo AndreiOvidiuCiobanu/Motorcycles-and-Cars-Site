@@ -1,0 +1,116 @@
+#Motociclete{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+h3{
+    color:red;
+}
+
+.paragraf{
+    font-size: medium;
+    padding: 35px; /*face spatiu in jurul unui element 
+    pentru a fi mai usor vizibil*/
+    margin: 20px;
+}
+
+table{
+    table-layout: auto;
+    width: 180px;
+}
+
+th,td {
+    border: 1px solid black;
+}
+
+li{
+    display: inline; /*dispunerea elementelor*/
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: chocolate;
+}
+
+.spatiu{
+    padding: 40px;
+}
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+@media screen and (min-width: 400px) {
+    body {
+        background-color: rgb(219, 134, 159);
+    }
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        background-color: lavender;
+    }
+}
+
+img{
+    transform: skew(10deg, 10deg);
+}

@@ -1,0 +1,23 @@
+h3{
+    color:darkgreen;
+}
+
+#masina{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+h1{
+    position: relative;
+    color: red;
+    left: 500px;
+}
+
+#carImage{
+    transform: rotate(5deg);
+}
+
+.classA{
+    background-color: bisque;
+    font: bold;
+}

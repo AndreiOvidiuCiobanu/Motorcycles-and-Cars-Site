@@ -1,0 +1,45 @@
+#Motociclete{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+h3{
+    color:red;
+}
+
+@media screen and (min-width: 400px) {
+    body {
+        background-color: rgb(219, 134, 159);
+    }
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        background-color: lavender;
+    }
+}
+
+img{
+    transition: width 3s, height 3s;
+    transition-delay: 2s;
+}
+
+img:hover{
+    width: 500px;
+    height: 500px;
+}
+
+p{
+    animation-name: changeP;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes changeP{
+    0%   {background-color:red;}
+    25%  {background-color:yellow;}
+    50%  {background-color:blue;}
+    75%  {background-color:green;}
+    100% {background-color:red;}
+}
