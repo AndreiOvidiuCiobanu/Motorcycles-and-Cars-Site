@@ -4,26 +4,25 @@ technologies.
 
 In this project I incorporated:
 # HTML
--header
--nav
--section
--article 
--aside
--div
--span
+header
+,nav
+,section
+,article 
+,aside
+,div, span
 
 # CSS
--position(relative, absolute)
--z-index
--transform
--transition
--animation
--box-model
+,position(relative, absolute)
+,z-index
+,transform
+,transition
+,animation
+,box-model
 
 # JS
--stopPropagation
--addEventListener with three parameters
--setInterval + clearInterval
--window- open + close
+,stopPropagation
+,addEventListener with three parameters
+,setInterval + clearInterval
+,window- open + close
 
 A video with the web-site: https://drive.google.com/open?id=1qnfWO06mRjEvdsufIGBZnvTdhjuqrQpq
