@@ -12,7 +12,7 @@ header
 ,div, span
 
 # CSS
-,position(relative, absolute)
+position(relative, absolute)
 ,z-index
 ,transform
 ,transition
@@ -20,7 +20,7 @@ header
 ,box-model
 
 # JS
-,stopPropagation
+stopPropagation
 ,addEventListener with three parameters
 ,setInterval + clearInterval
 ,window- open + close
