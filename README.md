@@ -1,5 +1,5 @@
 # Motorcycles-and-Cars-Site
-My first attempt to crate a web-site to incorporate most of the features I've learned at school. The project contains HTML, CSS, and JS 
+My first attempt to create a web-site to incorporate most of the features I've learned at school. The project contains HTML, CSS, and JS 
 technologies.
 
 In this project I incorporated:
